@@ -1,6 +1,6 @@
 # IP3
 ## Name
-This the pingpong website game
+##### PingPong Game
 ## Introduction
 This is the IP3, this is a game comprising of HTML and JS. this game let the user input a number and returns a random number.
 For numbers divisible by 3, it returns Ping. For numbers divisible by 5 it returns Pong.
