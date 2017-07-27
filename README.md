@@ -15,6 +15,10 @@ For numbers divisible by 15 it returns PingPong.
 _By Silas Odongo
 
 #### License 
+
+MIT License
+
+Copyright (c) 2017 dodtlim
 https://github.com/dodtlim/IP3/blob/master/LICENSE
 
 
