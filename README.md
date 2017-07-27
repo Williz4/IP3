@@ -7,14 +7,14 @@ For numbers divisible by 3, it returns Ping. For numbers divisible by 5 it retur
 For numbers divisible by 15 it returns PingPong.
 
 ## Instruction
-_Load the page at (link to be added)_
-_Input a random number, click Ping Pong burton to submitt._
-_get a unique random result._
+* Load the page at (link to be added).
+* Input a random number, click Ping Pong burton to submitt.
+* get a unique random result.
 
-# Author
-By Silas Odongo
+### Author
+_By Silas Odongo
 
-## License 
+#### License 
 https://github.com/dodtlim/IP3/blob/master/LICENSE
 
 
