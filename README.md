@@ -13,7 +13,7 @@ For numbers divisible by 15 it returns PingPong.
 
 ### Author
 
-_By Silas Odongo 
+_By Silas Odongo_ 
 
 #### License 
 
