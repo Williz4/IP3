@@ -12,7 +12,8 @@ For numbers divisible by 15 it returns PingPong.
 * get a unique random result.
 
 ### Author
-_By Silas Odongo
+
+_ By Silas Odongo _
 
 #### License 
 
