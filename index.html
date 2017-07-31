@@ -168,18 +168,14 @@ function closeNav() {
         <li>Numbers divisible by 5 are replaced with "pong"</li>
         <li>Numbers divisible by 15 are replaced with "pingpong"</li>
       </ol>
+      <div>
+      </div>
+    </div>
       <br>
 
       <div class="container">
-    Your number: 
-    <input type="number" name="input-number" id="input-number">
-    <input type="submit" value="Ping Pong">
-  </form>
-    </div>
-    <ul id="list"></ul>
-      
-      <script>
-        $(document).ready(function(){
+   <script>
+$(document).ready(function(){
   $("form").submit(function(event){
     var num = $('#input-number').val()
 
@@ -199,15 +195,16 @@ function closeNav() {
   
   });
 });
-      </script>
+</script>
 
-      
-  </form>
-</div>
-    </div>
-    </div>
-  </div>
-</div>
+<form>
+     <lebel>Enter Your number here:</lebel> 
+    <input type="number" name="input-number" id="input-number" class="form-group-lg">
+    <input type="submit" class="btn btn-warning" value="Calculate">
+  </form> 
+
+  <ul id="list"></ul>
+
     </body>
   </div>
 
