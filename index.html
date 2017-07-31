@@ -177,6 +177,35 @@ function closeNav() {
         <input class="form-control" id="ex2" type="number"><br>
         <button type="submit" class="btn btn-warning btn-lg">Ping Ping</button>
       </div>
+       <form>
+         
+    Your number: 
+    <input type="number" name="input-number" id="input-number">
+    <input type="submit" value="Ping Pong">
+  </form> 
+      <script>
+        $(document).ready(function(){
+  $("form").submit(function(event){
+    var num = $('#input-number').val()
+
+    for (var i = 1; i <= num; i++) {
+      if (i % 15 === 0) {
+        $('#list').append('<li>'+"Ping-Pong"+'</li>');}
+      else if (i % 3 === 0) {
+        $('#list').append('<li>'+"Ping"+'</li>');}
+      else if (i % 5 === 0) {
+        $('#list').append('<li>'+"Pong"+'</li>');}
+      else{
+        $('#list').append('<li>'+i+'</li>');}
+
+    };
+
+  event.preventDefault();
+  
+  });
+});
+      </script>
+
       
     </div>
   </form>
